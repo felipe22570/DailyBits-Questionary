@@ -1,0 +1,130 @@
+{
+   "html": [
+      {
+         "id": "1",
+         "question": "¿Qué etiqueta es semánticamente correcta para el contenido principal?",
+         "a": "main",
+         "b": "section",
+         "c": "header",
+         "answer": "main"
+      },
+      {
+         "id": "2",
+         "question": "¿Qué etiqueta HTML nos sirve para incluir elementos de Javascript?",
+         "a": "<br>",
+         "b": "<script>",
+         "c": "<styles>",
+         "answer": "<script>"
+      },
+      {
+         "id": "3",
+         "question": "¿Con qué palabra debemos iniciar nuestro archivo HTML?",
+         "a": "!DOCTYPE",
+         "b": "html",
+         "c": "file",
+         "answer": "!DOCTYPE"
+      },
+      {
+         "id": "4",
+         "question": "¿Qué etiqueta de HTML nos sirve para agregar un párrafo?",
+         "a": "<hr>",
+         "b": "<h3>",
+         "c": "<p>",
+         "answer": "<p>"
+      },
+      {
+         "id": "5",
+         "question": "¿Cuál es la última versión de HTML?",
+         "a": "3",
+         "b": "2",
+         "c": "5",
+         "answer": "5"
+      }
+   ],
+
+   "css": [
+      {
+         "id": "1",
+         "question": "¿Con qué etiqueta podemos agregar estilos CSS en HTML?",
+         "a": "<color>",
+         "b": "<style>",
+         "c": "<design>",
+         "answer": "<style>"
+      },
+      {
+         "id": "2",
+         "question": "¿Con qué propiedad podemos editar el color de un texto?",
+         "a": "text-color",
+         "b": "color",
+         "c": "background-color",
+         "answer": "color"
+      },
+      {
+         "id": "3",
+         "question": "¿Con qué propiedad podemos establecer un tipo de letra?",
+         "a": "font-type",
+         "b": "font-style",
+         "c": "font-family",
+         "answer": "font-family"
+      },
+      {
+         "id": "4",
+         "question": "¿Con qué propiedad podemos ocultar un elemento HTML?",
+         "a": "display: none",
+         "b": "display: hidden",
+         "c": "display-stop",
+         "answer": "display: none"
+      },
+      {
+         "id": "5",
+         "question": "¿Cuál de las siguientes palabras no es una unidad de medida de texto",
+         "a": "rem",
+         "b": "px",
+         "c": "hz",
+         "answer": "hz"
+      }
+   ],
+
+   "javascript": [
+      {
+         "id": "1",
+         "question": "¿Cuál de las siguientes palabras no es un tipo de variable?",
+         "a": "let",
+         "b": "const",
+         "c": "type",
+         "answer": "type"
+      },
+      {
+         "id": "2",
+         "question": "¿Cuál es el tipo de dato que se inicializa con corchetes []",
+         "a": "Arreglo",
+         "b": "Objeto",
+         "c": "Función",
+         "answer": "Función"
+      },
+      {
+         "id": "3",
+         "question": "¿Con qué método se puede acceder a un elemento HTML por medio de su id?",
+         "a": "document.getElementByName",
+         "b": "document.getElementById",
+         "c": "document.querySelectorAll",
+         "answer": "document.getElementById"
+      },
+      {
+         "id": "4",
+         "question": "¿De qué manera se debe llamar un archivo Javascript?",
+         "a": "file.js",
+         "b": "file.javascript",
+         "c": "file.script",
+         "answer": "file.js"
+      },
+      {
+         "id": "5",
+         "question": "¿Con qué método podemos agregar código HTML desde javascript?",
+         "a": "includeHTML",
+         "b": "innerHTML",
+         "c": "setHTML",
+         "answer": "innerHTML"
+      }
+   ]
+}

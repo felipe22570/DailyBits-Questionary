@@ -1,0 +1,20 @@
+{
+   "users": [
+      {
+         "id": 1,
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644614269/yo1jujelv2uf89jifasa.jpg",
+         "nombre": "Felipe",
+         "apellido": "Rodriguez",
+         "correo": "piedra22570@gmail.com",
+         "estadisticas": [0, 0, 0]
+      },
+      {
+         "id": 2,
+         "imagen": "https://res.cloudinary.com/dcane9asx/image/upload/v1644611144/cld-sample.jpg",
+         "nombre": "Pepito",
+         "apellido": "Perez",
+         "correo": "pepito@gmail.com",
+         "estadisticas": [0, 0, 0]
+      }
+   ]
+}
