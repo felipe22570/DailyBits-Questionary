@@ -3,12 +3,20 @@ import styled from "styled-components";
 export const ContenedorLogin = styled.div`
    width: 50%;
    margin: auto;
-   height: 617px;
+   height: 100vh;
    background-color: black;
    color: white;
    display: flex;
    flex-direction: column;
    align-items: center;
+
+   @media screen and (max-width: 850px) {
+      width: 80%;
+   }
+
+   @media screen and (max-width: 500px) {
+      width: 100%;
+   }
 
    img {
       width: 6rem;

@@ -5,22 +5,28 @@ export const ContCategorias = styled.div`
    align-items: center;
    width: 90%;
    margin: auto;
-   margin-top: 150px;
+   margin-top: 15px;
    display: flex;
-   gap: 5%;
+   flex-direction: column;
+   gap: 10px;
+
+   @media screen and (max-width: 850px) {
+      width: 80%;
+   }
+
+   @media screen and (max-width: 500px) {
+      width: 100%;
+   }
 
    .categorias-link {
       background-color: white;
-      padding: 10px;
-      padding-bottom: 5px;
+      padding: 2% 5% 1% 2%;
       border-radius: 100%;
 
       img {
-         width: 100px;
+         width: 90%;
          border: 15px solid black;
          border-radius: 100%;
-         padding: 0;
-         margin: 0;
       }
    }
 `;

@@ -1,18 +1,20 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import { fileUpload } from "../helpers/fileUpload";
 import { urlUser } from "../helpers/url";
 import { ContenedorSign } from "../styles/signupStyle";
 
 const SignUp = () => {
+   const navigate = useNavigate();
    const [user, setUser] = useState({
       id: "",
       imagen: "",
       nombre: "",
       apellido: "",
       correo: "",
-      estadisticas: [],
+      estadisticas: [0, 0, 0],
    });
 
    const { imagen, nombre, apellido, correo } = user;
@@ -44,6 +46,8 @@ const SignUp = () => {
          .post(urlUser, user)
          .then((response) => {
             console.log(response.data);
+            alert("Usuario registrado correctamente!");
+            navigate("/");
          })
          .catch((error) => {
             console.log(error);

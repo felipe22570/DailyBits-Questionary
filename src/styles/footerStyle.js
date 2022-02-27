@@ -10,4 +10,12 @@ export const ContFooter = styled.div`
    display: flex;
    justify-content: space-around;
    align-items: center;
+
+   @media screen and (max-width: 850px) {
+      width: 80%;
+   }
+
+   @media screen and (max-width: 500px) {
+      width: 100%;
+   }
 `;

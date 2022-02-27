@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { urlUser } from "../helpers/url";
 import { ContenedorPerfil } from "../styles/perfilStyle";
 import Footer from "./Footer";
 
 const Perfil = () => {
    const navigate = useNavigate();
    const [usuario, setUsuario] = useState({
+      id: "",
       imagen: "",
       nombre: "",
       apellido: "",
@@ -18,11 +20,19 @@ const Perfil = () => {
       setUsuario(buscado);
    };
 
-   const { imagen, nombre, apellido, correo } = usuario;
+   const { id, imagen, nombre, apellido, correo } = usuario;
 
-   const clearLocal = () => {
+   const clearLocal = async () => {
+      await fetch(urlUser + id, {
+         method: "PUT",
+         body: JSON.stringify(usuario),
+         headers: {
+            "Content-Type": "application/json; charset=utf-8",
+         },
+      });
+
       localStorage.clear();
-      navigate("/login");
+      navigate("/");
    };
 
    useEffect(() => {

@@ -3,14 +3,21 @@ import styled from "styled-components";
 export const Contenedor = styled.div`
    width: 50%;
    margin: auto;
-   height: 610px;
+   height: 100vh;
    background-color: black;
-   border: 3px solid white;
    color: white;
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
+
+   @media screen and (max-width: 850px) {
+      width: 80%;
+   }
+
+   @media screen and (max-width: 500px) {
+      width: 100%;
+   }
 `;
 
 export const Titulo = styled.span`

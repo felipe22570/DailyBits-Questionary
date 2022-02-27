@@ -3,24 +3,33 @@ import styled from "styled-components";
 export const ContenedorHead = styled.div`
    width: 50%;
    margin: auto;
-   height: 617px;
+   height: 100vh;
    background-color: black;
    color: white;
    display: flex;
    flex-direction: column;
+
+   @media screen and (max-width: 850px) {
+      width: 80%;
+   }
+
+   @media screen and (max-width: 500px) {
+      width: 100%;
+   }
 `;
 
 export const Head = styled.div`
    display: flex;
    width: 90%;
    margin: auto;
-   gap: 7%;
+   gap: 4%;
 
-   .head-bar {
-      background-color: white;
+   img {
+      background-color: black;
+   }
+
+   .progress {
       width: 80%;
-      height: 20px;
-      border-radius: 25px;
    }
 `;
 
